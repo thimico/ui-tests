@@ -1,0 +1,13 @@
+Sort Algorithm
+
+Write an algorithm that accepts an array of data and returns the most popular startDates for each channel.
+Please implement a test suite for your solution.
+
+Example output:
+{
+  "PushNotification": ["2019-01-03"],
+  "InAppMessage": ["2019-01-02"],
+  "Conversations": ["2019-01-02", "2019-01-03"],
+  "Email": ["2019-01-01"],
+  "Geo": ["2019-01-04"]
+}

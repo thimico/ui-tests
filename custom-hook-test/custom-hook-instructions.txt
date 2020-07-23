@@ -1,0 +1,19 @@
+This directory contains a boilerplate React environment configuration.
+Development-related scripts have been defined within package.json.
+
+Create a custom hook that fetches GIF data from Giphy's developer API (https://github.com/giphy/GiphyAPI),
+and make use of this hook within the "App" component found within index.js.
+The API should be queried for "dog" GIF data. The data returned by the API should be rendered within the 
+"pre" element with the id of "response-container", found within the "App" component.
+
+The custom hook should return some means of tracking loading state. While an async-request is loading, 
+the component using the custom hook should display a "Loading..." message.
+
+The custom hook should return some means of identifying if an error has occurred during the fetching of
+data. If an error has occurred, the component using the custom hook should display an "Error" message.
+
+A minimal implementation of the loading and error messages mentioned above is fine, don't spend time on
+specialised styling or animations for loading and error states.
+
+Additionally, write some tests to ensure that the custom hook functions as required, and supports the
+tracking of loading and error states.
