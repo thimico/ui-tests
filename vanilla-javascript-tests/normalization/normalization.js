@@ -1,4 +1,4 @@
-const blogPostEntries = [
+export const blogPostEntries = [
   {
     id: "post1",
     author: { username: "user1", name: "User 1" },

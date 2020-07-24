@@ -1,0 +1,17 @@
+{
+  "name": "normalization",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "execute": "node ./index.js",
+    "test": "jest --watchAll"
+  },
+  "author": "Thiago Menezes",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
