@@ -1,0 +1,20 @@
+{
+  "name": "sort",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "solution.js",
+  "scripts": {
+    "execute": "node ./index.js",
+    "test": "jest --watchAll"
+  },
+  "author": "Thiago Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "jest": "^26.1.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.19"
+  }
+}

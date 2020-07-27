@@ -2,3 +2,11 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+main#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 50px);
+  grid-gap: 15px;
+  margin: 0 auto;
+  width: 845px;
+}
